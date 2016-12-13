@@ -38,7 +38,7 @@ public class MyTextView extends View {
         String name3 = ta.getString(R.styleable.MyTextView_name3);
         String name4 = ta.getString(R.styleable.MyTextView_name4);
 
-        TEXT = name1 + "**" + name2 + "**" + name3 + "**" + name4;
+//        TEXT = name1 + "**" + name2 + "**" + name3 + "**" + name4;
         ta.recycle();
     }
 

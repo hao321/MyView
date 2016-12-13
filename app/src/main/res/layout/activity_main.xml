@@ -11,19 +11,31 @@
     tools:context="com.melo.myview.myview.MainActivity"
     >
 
-    <com.melo.myview.myview.view.CustomImageView
-        android:layout_width="300dp"
-        android:layout_height="400dp"
-        android:src="@drawable/girl"
-        android:scaleType="centerCrop"
-        app:border="2dp"
-        app:border_color="@color/colorPrimary"
-        app:isCircle="true"
-        app:corner_radius="150dp"
-        app:show_shape="@mipmap/ic_launcher"/>
+    <!--<com.melo.myview.myview.view.CustomImageView-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="400dp"-->
+        <!--android:src="@drawable/girl"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--app:border="2dp"-->
+        <!--app:border_color="@color/colorPrimary"-->
+        <!--app:isCircle="true"-->
+        <!--app:corner_radius="150dp"-->
+        <!--app:show_shape="@mipmap/ic_launcher"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:background="#990077"/>-->
 
-    <!--<com.melo.myview.myview.view.CirclePhotoView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content" />-->
+        <com.melo.myview.myview.view.CodeView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+
 
 </RelativeLayout>
